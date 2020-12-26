@@ -1,0 +1,40 @@
+[
+    {
+    "id":1,
+    "name":"Samsung A5",
+    "price": "RS.58999",
+    "image":"https://picsum.photos/50/50?random=1"
+},
+{
+    "id":2,
+    "name":"Samung A6",
+    "price":"RS. 35,699",
+    "image":"https://picsum.photos/50/50?random=2"
+},
+{
+    "id":3,
+    "name":"Samsung A7",
+    "price":"RS.14999",
+    "image":"https://picsum.photos/50/50?random=3"
+},
+{
+    "id":4,
+    "name":"Samsung A8",
+    "price": "RS.104999",
+    "image":"https://picsum.photos/50/50?random=4"
+}
+,
+{
+    "id":4,
+    "name":"Samsung A8",
+    "price": "RS.104999",
+    "image":"https://picsum.photos/50/50?random=4"
+},
+
+{
+    "id":4,
+    "name":"Samsung A8",
+    "price": "RS.104999",
+    "image":"https://picsum.photos/50/50?random=4"
+}
+]

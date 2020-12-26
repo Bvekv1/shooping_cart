@@ -1,0 +1,86 @@
+body{
+    margin:0
+}
+
+header{
+    background-color: #03a9f4;
+    text-align: center;
+}
+
+.link{
+    color:#fff;
+    font-size: 30px;
+    padding: 4px;
+    font-family: 'Anton'
+}
+#cart{
+ width: 60px;
+ height:60px;
+}
+.cartdisplay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color: red;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+.cartdisplay >div{
+    background-color: blanchedalmond;
+    text-align:center;
+    margin:15px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom:10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+  border: 1px solid black;
+        
+}
+
+.cartdisplay img{
+    width: 50%;
+}
+
+/*Making container responsive */
+@media(max-width:700px){
+    .cartdisplay{  
+     flex-direction:column;
+     
+        
+        
+    }
+}
+
+.price{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+#button{
+    margin-top: 5px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    font-style: italic;
+    
+}
+
+#button:hover {background-color: yellowgreen;}
+#button:active{
+    background-color: rgb(42, 165, 155);
+    box-shadow: 0 5px #fff;
+    transform: translateY(4px);
+}
+#shop{
+    width:20px;
+    height:20px;
+  
+}
+
+#hover:hover{
+transform: scale(1.2);
+margin-top:50px;
+}
